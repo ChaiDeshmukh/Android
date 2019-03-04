@@ -29,3 +29,20 @@ In this assignment, we will see how implicit intents work through two examples b
 1)	This is the home screen of Android App which allows user to invoke the user entered URL and make call to the specified phone number.
 
 ![](images/Capture.PNG)
+
+
+2)	If user clicks on Launch button without entering the URL, app throws a message to enter proper URL.
+
+![](images/Capture1.PNG)
+
+3)	I have used uri.parse() method to invoke the web url.
+
+![](images/Capture2.PNG)
+
+
+![](images/Capture3.PNG)
+
+
+4)	To make a phone call, app will ask user permission and then will direct the call to main phone app.
+
+![](images/Capture4.PNG)

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/pref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="105dp"
+        android:text="Preferences"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/sql"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pref"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:text="SQLite"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="354dp"
+        android:layout_height="307dp"
+        android:layout_alignLeft="@+id/pref"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="44dp"
+        android:background="@color/gray"
+        android:fadeScrollbars="false"
+        android:fadingEdge="vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:fontFamily="serif" />
+
+    <ImageView
+        android:layout_width="97dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sjsu" />
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="203dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:text="Android Data Storage"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="serif" />
+
+
+</RelativeLayout>

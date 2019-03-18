@@ -5,7 +5,7 @@ Objective: Using Async Task one can run tasks that take longer than five seconds
 ---
 
 
-[![Demo](images/Capture4.PNG)]((https://youtu.be/xozrM6W5SV0))
+[![Demo](images/demo.gif)]((https://youtu.be/xozrM6W5SV0))
 
 1)	This is the home screen of TH Sensor Driver App where we are taking number of sensors reading from user.
 
